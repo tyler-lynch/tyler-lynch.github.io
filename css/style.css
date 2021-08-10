@@ -61,6 +61,21 @@ strong { font-weight: var(--fw-bold) }
 
 /* Buttons */
 
+.my-work--btn{
+    display: inline-block;
+    padding: .5em 2.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+    margin-top: 4em;
+}
+
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
@@ -75,7 +90,8 @@ strong { font-weight: var(--fw-bold) }
     transition: transform 200ms ease-in-out;
 }
 
-.btn:hover {
+.btn:hover,
+.my-work--btn:hover {
     transform: scale(1.1);
 }
 
@@ -388,7 +404,7 @@ header {
 .portfolio__item {
     color: var(--clr-light);
     text-decoration: none;
-    overflow: hidden;
+    overflow: visible;
     margin-top: 1em;
     margin-bottom: 1em;
     transition: 
