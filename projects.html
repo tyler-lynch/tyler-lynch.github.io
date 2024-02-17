@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+        <meta name="author" content="Tyler Lynch">
+        <meta name="description" content="Static Portfolio Site.">
+        <meta name="keywords" content="UVA Tyler Lynch tjl5vmd Static Webpage Portfolio">
+        
+        <meta property="og:title" content="Tyler Lynch Portfolio">
+        <meta property="og:type" content="website">
+        <meta property="image" content="">
+        <meta property="og:url" content="tyler-lynch.github.io/projects.html">
+        <meta property="og:description" content="Tyler Lynch's portfolio website.">
+        <meta property="og:site_name" content="Tyler Lynch Portfolio">
+
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <title>Tyler Lynch Portfolio</title>
+    </head>   
+    <body>
+        <header>
+            <h1>Tyler Lynch</h1>
+            <h2>Computer Science Student & Athlete @ University of Virginia</h2>
+            <nav>
+                <a href="index.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="athletics.html">Athletics</a>
+                <a href="aboutme.html">About</a>
+                <a href="https://github.com/tyler-lynch"><i class="fab fa-github" style="font-size: 24px;"></i></a>
+                <a href="https://www.linkedin.com/in/tylerlynch100/"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a>
+            </nav>
+        </header>
+        <hr class="line-break">
+        <section>
+            <h2>Projects</h2>
+            <section class="company-container">
+                <h3>2024</h3>
+                <div class="athletic-experience">
+                    <h4 class="job-title">Portfolio Website</h4>
+                    <p class="job-date">February 2024 - Present</p>
+                    <p class="job-location">Personal Project</p>
+                    <a class="athletic-video" href="https://github.com/tyler-lynch/tyler-lynch.github.io" style="display: inline-block; padding: 10px 20px; background-color: #C8CBD2; color: #232D4B; text-decoration: none; border-radius: 25px; text-align: center; width: 90px;">Go to Code</a>
+                    <ul class="video-description" style="justify-self: left;">
+                        <li>The website we are on right now!</li>
+                        <li>Static webpage written in HTML styled with CSS</li>
+                        <li>Trying to follow web dev best practices.</li>
+                    </ul>
+                </div>
+                <h3>2023</h3>
+                <div class="athletic-experience">
+                    <h4 class="job-title">F 1/10 Autonomous Racing</h4>
+                    <p class="job-date">August 2023 - December 2023</p>
+                    <p class="job-location">Tesla Team</p>
+                    <video width="320" height="240" controls class="athletic-video" title="Tesla Team's F 1/10 Autonomous Time Trial Race">
+                        <source src="imgs/f1tenthcompressed.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <ul class="video-description" style="justify-self: left;">
+                        <li>Secured 2nd place in a time trial race against 8 competing teams by designing and optimizing a Pure Pursuit autonomous racing program for our F 1/10 race car.</li>
+                        <li>Implemented Follow the Gap for head-to-head racing.</li>
+                        <li>Implemented PID Wall Following in early tests.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="company-container">
+                <h3>2022</h2>
+                <div id="Paper" class="athletic-experience">
+                    <h4 class="job-title">A Self Learning System for Emotion Awareness and Adaptation in Humanoid Robots</h4>
+                    <p class="job-date">September 2022</p>
+                    <p class="job-location">UVA Link Lab, Human-AI Technology Lab</p>
+                    <a class="athletic-video" href="https://ieeexplore.ieee.org/document/9900581" style="display: inline-block; padding: 10px 20px; background-color: #C8CBD2; color: #232D4B; text-decoration: none; border-radius: 25px; text-align: center; width: 90px;">Go to Paper</a>
+                    <ul class="video-description" style="justify-self: left;">
+                        <li>Published at the 2022 31st IEEE International Conference on Robot and Human Interactive Communication (RO-MAN).</li>
+                        <li>Conducted a 2-stage user study, achieving a 12% increase in emotion recognition accuracy and an 8.28% improvement in successfully eliciting intended emotions between stages.</li>
+                        <li>Developed an adaptive learning system for real-time emotion recognition in humanoid robots.</li>
+                        <li>Implemented Convolutional Neural Networks, utilizing ResNet50 and Inception v3, for facial expression analysis.</li>
+                    </ul>
+                </div>
+                <div class="athletic-experience">
+                    <h4 class="job-title">Studdy Buddy</h4>
+                    <p class="job-date">January 2022 - March 2022</p>
+                    <p class="job-location">CS 3240 - Advanced Software Development</p>
+                    <div class="athletic-video" style="display: flex; justify-content: center; align-items: center; max-width: 900px;">
+                        <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/0daJG3gHpaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>   
+                    <ul class="video-description" style="justify-self: left;">
+                        <li>Study-Buddy is a website where students can list which UVA courses they are in and communicate with other students to set up study events.</li>
+                        <li>Built using Django framework with a SQLite database.</li>
+                        <li>Utilizes Google Calendar and Google Auth APIs.</li>
+                        <li>Runs on a Heroku instance and takes advantage of GitHub Actions Continuous Integration.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="company-container">
+                <h3>2019</h3>
+                <div class="athletic-experience">
+                    <h4 class="job-title">The Effect of Machine Learning on Website Security</h4>
+                    <p class="job-date">December 2018 - March 2019</p>
+                    <p class="job-location">Battlefield High School Science Fair</p>
+                    <div class="athletic-video" style="display: flex; justify-content: center; align-items: center; max-width: 900px;">
+                        <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/rQ7kV2e-qAM?si=Z69tIhBFgxOd0so1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <ul class="video-description" style="justify-self: left;">
+                        <li>Created a program that solved Google Recaptchas using image recognition and machine learning.</li>
+                        <li>The project was written in Java and Python utilizing TensorFlow.</li> 
+                        <li>Won the Computer Science division of the Battlefield High School science fair and placed 3rd at the Prince William County School Regional Fair.</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <hr class="line-break">
+        <footer class="primary-footer">
+            <nav>
+                <a href="index.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="athletics.html">Athletics</a>
+                <a href="aboutme.html">About</a>
+                <a href="https://github.com/tyler-lynch"><i class="fab fa-github" style="font-size: 24px;"></i></a>
+                <a href="https://www.linkedin.com/in/tylerlynch100/"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a>
+            </nav>
+            <small>Copyright Tyler Lynch 2024</small>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,194 @@
+/*
+Used uva color scheme: https://brand.virginia.edu/design-assets/colors/accessible-type-color-combinations
+*/
+
+body {
+    background-color: #232D4B;
+    color: #FFFFFF;
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-color: #E57200;
+}
+
+h2 {
+    text-align: center;
+}
+
+a, a:hover, a:active, a:visited {
+    color: #FFFFFF;
+    text-decoration-color: #E57200;
+}
+
+li::marker {
+    color: #E57200;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin-block-end: 0;
+    text-decoration: underline;
+    text-decoration-color: #E57200;
+}
+
+
+
+.line-break {
+    width: 90%;
+    margin-top: 30px;
+    background-color: #dadada;
+    border: none;
+    height: 2px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.about-me p{
+    max-width: 70%;
+}
+
+.about-me-headshot {
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a {
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.company-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-title img {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.company-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 10px;
+}
+
+.experience {
+    display: grid;
+    grid-template-areas: 
+        "title date"
+        "location location"
+        "description description";
+    background-color: #2e3c64;
+    border-radius: 10px; 
+    padding: 10px;
+}
+
+.athletic-experience {
+    display: grid;
+    grid-template-areas: 
+        "title date"
+        "location location"
+        "video video"
+        "description description";
+    background-color: #2e3c64;
+    border-radius: 10px; 
+    padding: 10px;
+}
+
+.job-title {
+    grid-area: title;
+    margin-block-start: 0;
+    margin-block-end: .5em;
+}
+
+.job-date {
+    grid-area: date;
+    text-align: right;
+    font-size: 0.8em;
+    color: #DADADA;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.job-location {
+    grid-area: location;
+    color: #DADADA;
+    font-size: 0.8em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.job-description {
+    grid-area: description;
+}
+
+.job-description li {
+    margin-bottom: 5px;
+}
+
+.video-description {
+    grid-area: description;
+    justify-self: center;
+}
+
+.video-description-p {
+    grid-area: description;
+    text-align: center;
+    width: 100%;
+}
+
+.athletic-video {
+    grid-area: video;
+    justify-self: center;
+    width: 60%;
+    height: auto;
+}
+
+.primary-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
