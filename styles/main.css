@@ -5,7 +5,9 @@ Used uva color scheme: https://brand.virginia.edu/design-assets/colors/accessibl
 body {
     background-color: #232D4B;
     color: #FFFFFF;
+    font-size: calc(100% + 2px); /* Scale size of entire site. */
 }
+
 
 h3 {
     text-decoration: underline;
@@ -182,7 +184,7 @@ section {
     justify-self: center;
     width: 60%;
     height: auto;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .primary-footer {
