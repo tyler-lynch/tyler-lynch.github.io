@@ -84,7 +84,7 @@ a {
     transition: transform 0.3s ease;
 }
 
-nav a:hover {
+a:hover {
     transform: scale(1.1);
 }
 
@@ -182,6 +182,7 @@ section {
     justify-self: center;
     width: 60%;
     height: auto;
+    padding-top: 20px;
 }
 
 .primary-footer {
