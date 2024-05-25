@@ -136,6 +136,24 @@ section {
     border-radius: 10px; 
     padding: 10px;
 }
+.athletic-experience-gif {
+    display: grid;
+    grid-template-areas: 
+        "title date"
+        "location location"
+        "video video"
+        "gotoButton gotoButton"
+        "description description";
+    background-color: #2e3c64;
+    border-radius: 10px; 
+    padding: 10px;
+}
+
+.gotoButton {
+    grid-area: gotoButton;
+    justify-self: center;
+    margin-top: 20px;
+}
 
 .job-title {
     grid-area: title;
